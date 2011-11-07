@@ -1,0 +1,6 @@
+#wrap {
+    width: 854px;
+}
+* html #header {
+    float: left
+}
