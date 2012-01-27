@@ -454,10 +454,6 @@ img {
 	font-family: 'WisdomScriptAIRegular', Helvetica, Arial, Verdana, sans-serif;
 	color: #fff
 }
-.placeholder { color: #bbb !important }
-::-webkit-input-placeholder { color: #bbb !important }
-:-moz-placeholder { color: #bbb !important }
-
 /* media queries */
  @media only screen and (max-width: 1000px) {
  #wrap {
