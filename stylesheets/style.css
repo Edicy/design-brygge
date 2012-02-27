@@ -3,7 +3,7 @@ html {
     -webkit-text-size-adjust: none;
 }
 body {
-	background: #896f5a url('../images/bg.jpg?1') repeat-x fixed;
+    background: #9c7f62 url('../images/bg02.jpg?1') repeat fixed;
 	font: 13px/20px Helvetica, Arial, Verdana, sans-serif;
 	color: #696969;
 }
@@ -37,7 +37,8 @@ h2 {
 	margin-bottom: 10px
 }
 h3 {
-	font-size: 15px;
+	font-size: 16px;
+    margin-bottom: 10px
 }
 img {
 	max-width: 100%;
@@ -63,9 +64,9 @@ img {
 }
 #content {
 	background: #fff url('../images/line.gif?1') no-repeat left top;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, .35);
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .35);
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .35);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .45);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .45);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .45);
 	padding: 27px 20px 20px 20px;
 	min-height: 200px
 }
@@ -175,7 +176,6 @@ img {
 	margin-bottom: 11px
 }
 #content img {
-	border: 3px solid #fff;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .34);
 	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .34);
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .34)
@@ -204,7 +204,7 @@ img {
 	position: absolute;
 	left: 0;
 	top: 6px;
-	background: #61caf0;
+	background: #29b7ec;
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -394,6 +394,13 @@ img {
 .form_error, .form_field_error, .blog-errors {
 	color: #cc0000
 }
+.form_notice, .form_error {
+    font-size: 18px;
+    margin: 13px 0
+}
+.form_field_with_errors input, .form_field_with_errors textarea {
+    border: 1px solid #cc0000
+}
 .form_field_size_small {
 	width: 24%
 }
@@ -402,6 +409,9 @@ img {
 }
 .form_field_size_large {
 	width: 98%
+}
+.form_field_checkbox, .form_field_radio {
+    margin: 0 6px 0 0
 }
 /* => FOOTER  */
 .footer-inner {
