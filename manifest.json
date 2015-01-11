@@ -1,1 +1,214 @@
-{"name":"Brugge","layouts":[{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"Footer","layout_name":"component","content_type":"component","file":"components/footer.tpl"},{"component":true,"title":"JS","layout_name":"component","content_type":"component","file":"components/js.tpl"},{"component":true,"title":"Langmenu","layout_name":"component","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Mainmenu","layout_name":"component","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"News","layout_name":"component","content_type":"component","file":"components/news.tpl"},{"component":true,"title":"SiteHeader","layout_name":"component","content_type":"component","file":"components/siteheader.tpl"},{"component":true,"title":"Submenu","layout_name":"component","content_type":"component","file":"components/submenu.tpl"}],"author":"Paavel Liik","preview_medium":"http://static.edicy.com/designs/previews/brugge_medium.jpg","assets":[{"kind":"images","content_type":"image/gif","filename":"line.gif","file":"images/line.gif"},{"kind":"images","content_type":"image/png","filename":"line.gif.png","file":"images/line.gif.png"},{"kind":"images","content_type":"image/png","filename":"bg02.png","file":"images/bg02.png"},{"kind":"images","content_type":"image/png","filename":"loop.png","file":"images/loop.png"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"stylesheets","content_type":"text/css","filename":"reset.css","file":"stylesheets/reset.css"},{"kind":"stylesheets","content_type":"text/css","filename":"style_ie.css","file":"stylesheets/style_ie.css"},{"kind":"stylesheets","content_type":"text/css","filename":"fonts.css","file":"stylesheets/fonts.css"},{"kind":"assets","content_type":"font/eot","filename":"sansus-webissimo-regular-webfont.eot","file":"assets/sansus-webissimo-regular-webfont.eot"},{"kind":"images","content_type":"image/svg+xml","filename":"sansus-webissimo-regular-webfont.svg","file":"images/sansus-webissimo-regular-webfont.svg"},{"kind":"assets","content_type":"font/eot","filename":"quattrocento-regular-webfont.eot","file":"assets/quattrocento-regular-webfont.eot"},{"kind":"images","content_type":"image/svg+xml","filename":"wisdom_script-webfont.svg","file":"images/wisdom_script-webfont.svg"},{"kind":"images","content_type":"image/svg+xml","filename":"quattrocento-regular-webfont.svg","file":"images/quattrocento-regular-webfont.svg"},{"kind":"assets","content_type":"font/eot","filename":"wisdom_script-webfont.eot","file":"assets/wisdom_script-webfont.eot"},{"kind":"images","content_type":"image/jpeg","filename":"bg02.jpg","file":"images/bg02.jpg"},{"kind":"images","content_type":"image/svg+xml","filename":"header-tag.svg","file":"images/header-tag.svg"},{"kind":"images","content_type":"image/png","filename":"tag.png","file":"images/tag.png"},{"kind":"images","content_type":"image/svg+xml","filename":"tag.svg","file":"images/tag.svg"},{"kind":"images","content_type":"image/png","filename":"header-tag.png","file":"images/header-tag.png"},{"kind":"javascripts","content_type":"text/javascript","filename":"modernizr.js","file":"javascripts/modernizr.js"}],"preview_small":"http://static.edicy.com/designs/previews/brugge_small.jpg","description":"Brugge"}
+{
+  "description": "Brugge",
+  "name": "Brugge",
+  "preview_medium": "http://static.edicy.com/designs/previews/brugge_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/brugge_small.jpg",
+  "author": "Paavel Liik",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/news.tpl",
+      "layout_name": "news",
+      "title": "news"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/quattrocento-regular-webfont.eot",
+      "kind": "assets",
+      "filename": "quattrocento-regular-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/quattrocento-regular-webfont.svg",
+      "kind": "assets",
+      "filename": "quattrocento-regular-webfont.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/sansus-webissimo-regular-webfont.eot",
+      "kind": "assets",
+      "filename": "sansus-webissimo-regular-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/sansus-webissimo-regular-webfont.svg",
+      "kind": "assets",
+      "filename": "sansus-webissimo-regular-webfont.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag.svg",
+      "kind": "assets",
+      "filename": "tag.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/wisdom_script-webfont.eot",
+      "kind": "assets",
+      "filename": "wisdom_script-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/wisdom_script-webfont.svg",
+      "kind": "assets",
+      "filename": "wisdom_script-webfont.svg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/bg.jpg",
+      "kind": "images",
+      "filename": "bg.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/bg02.jpg",
+      "kind": "images",
+      "filename": "bg02.jpg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bg02.png",
+      "kind": "images",
+      "filename": "bg02.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/line.gif",
+      "kind": "images",
+      "filename": "line.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/line.gif.png",
+      "kind": "images",
+      "filename": "line.gif.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/loop.png",
+      "kind": "images",
+      "filename": "loop.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/fonts.css",
+      "kind": "stylesheets",
+      "filename": "fonts.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/reset.css",
+      "kind": "stylesheets",
+      "filename": "reset.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style_ie.css",
+      "kind": "stylesheets",
+      "filename": "style_ie.css"
+    }
+  ]
+}
