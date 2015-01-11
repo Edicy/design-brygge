@@ -16,7 +16,7 @@
   <div id="content-wrap">
     <div id="content" class="clear">
      {% include "Submenu" %}
-     {% content %}
+     <div data-search-indexing-allowed="true">{% content %}</div>
     </div>
     <!-- //content -->
     {% include "Footer" %}

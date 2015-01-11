@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html lang="{{ page.language_code }}">
 <head>
 {% include "SiteHeader" %}
@@ -15,7 +15,7 @@
   <!-- //header -->
   <div id="content-wrap">
     <div id="content" class="clear">
-     <div class="clear">
+     <div class="clear" data-search-indexing-allowed="true">
      {% content %}
      </div>
      {% include "News" %} 
