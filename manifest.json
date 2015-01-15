@@ -91,7 +91,7 @@
       "filename": "header-tag.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/quattrocento-regular-webfont.eot",
       "kind": "assets",
       "filename": "quattrocento-regular-webfont.eot"
@@ -103,7 +103,7 @@
       "filename": "quattrocento-regular-webfont.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/sansus-webissimo-regular-webfont.eot",
       "kind": "assets",
       "filename": "sansus-webissimo-regular-webfont.eot"
@@ -121,7 +121,7 @@
       "filename": "tag.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/wisdom_script-webfont.eot",
       "kind": "assets",
       "filename": "wisdom_script-webfont.eot"
