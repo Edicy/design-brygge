@@ -30,7 +30,7 @@
         </div>
     {% endif %}
                             
-     {% if editmode %}<div>{% addbutton class="add-article" %}</div>{% endif %}
+     {% if editmode %}{% addbutton class="add-article" %}{% endif %}
      <ul id="blog-list">
      {% for article in articles %}
         <li>

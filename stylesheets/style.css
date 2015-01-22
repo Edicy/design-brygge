@@ -257,6 +257,11 @@ img {
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .5)
 }
 /* blog */
+.add-article {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 #wrap #blog-list {
 	list-style-type: none;
 	margin: 0
