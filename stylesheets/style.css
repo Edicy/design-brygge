@@ -119,7 +119,8 @@ img {
 	list-style-type: none;
 }
 #langmenu li {
-	float: right
+	display: inline-block;
+	margin-bottom: 5px;
 }
 #langmenu a, #nav a, #footer a {
 	color: #fff
