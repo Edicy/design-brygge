@@ -16,7 +16,7 @@
   <div id="content-wrap">
     <div id="content" class="clear">
      {% include "Submenu" %}
-     <div data-search-indexing-allowed="true">{% content %}</div>
+     <div class="content-hyphenate" data-search-indexing-allowed="true">{% content %}</div>
     </div>
     <!-- //content -->
     {% include "Footer" %}
