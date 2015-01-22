@@ -520,9 +520,12 @@ img {
 	margin-right: 3px;
 	float: right
 }
-#edicy a {
-	font-family: 'WisdomScriptAIRegular', Helvetica, Arial, Verdana, sans-serif;
-	color: #fff
+#edicy a svg {
+	fill: #ffffff;
+}
+
+#edicy a:hover svg {
+	opacity: .8;
 }
 /* media queries */
  @media only screen and (max-width: 1000px) {
