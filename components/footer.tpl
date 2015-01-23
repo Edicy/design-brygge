@@ -1,5 +1,5 @@
 <div id="footer" class="clear">
-      <div class="footer-inner content-hyphenate">{% xcontent name="footer" %}</div>
+      <div class="footer-inner">{% xcontent name="footer" %}</div>
       {% if site.search.enabled %}
         <form action="#" method="post" id="search" class="clear edys-search">
             <p class="left"><input type="text" name="" id="onpage_search" class="edys-search-input" placeholder="{{ "search"|lc }}" /></p>

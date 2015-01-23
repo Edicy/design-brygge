@@ -5,7 +5,7 @@
 {{blog.rss_link}}
 </head>
 <body id="front">
-<div id="wrap" class="clear">
+<div id="wrap" class="clear content-hyphenate">
   <div id="header">
     <div class="clear">
       {% include "Langmenu" %}
@@ -33,7 +33,7 @@
      {% if editmode %}{% addbutton class="add-article" %}{% endif %}
      <ul id="blog-list">
      {% for article in articles %}
-        <li class="content-hyphenate">
+        <li>
           <h2><a href="{{article.url}}">{{article.title}}</a></h2>
            <p><span class="author">{{article.author.name}}</span> / {{article.created_at | format_date:"long"}}{% unless article.comments_count == 0 %} / <span class="comments">{{"comments" | lc}}</span> <a href="{{article.url}}#comments" class="comments-nr edy-site-blog-comments-count">{{article.comments_count}}</a>{% endunless %}</p>
           {{article.excerpt}} <a class="more" href="{{article.url}}">{{"read_more"|lc}}</a>
