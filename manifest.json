@@ -38,49 +38,49 @@
       "component": true,
       "file": "components/js.tpl",
       "layout_name": "js",
-      "title": "js"
+      "title": "JS"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/footer.tpl",
       "layout_name": "footer",
-      "title": "footer"
+      "title": "Footer"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/langmenu.tpl",
       "layout_name": "langmenu",
-      "title": "langmenu"
+      "title": "Langmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/mainmenu.tpl",
       "layout_name": "mainmenu",
-      "title": "mainmenu"
+      "title": "Mainmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/news.tpl",
       "layout_name": "news",
-      "title": "news"
+      "title": "News"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/siteheader.tpl",
       "layout_name": "siteheader",
-      "title": "siteheader"
+      "title": "SiteHeader"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/submenu.tpl",
       "layout_name": "submenu",
-      "title": "submenu"
+      "title": "Submenu"
     }
   ],
   "assets": [
